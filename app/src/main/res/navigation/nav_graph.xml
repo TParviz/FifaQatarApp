@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/first_fragment">
+
+    <fragment
+        android:id="@+id/first_fragment"
+        android:name="com.test.questionsandroid.ui.FirstFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_countriesFragment"
+            app:destination="@id/countries_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/countries_fragment"
+        android:name="com.test.questionsandroid.ui.CountriesFragment"
+        android:label="AllCountries"
+        tools:layout="@layout/fragment_countries">
+        <action
+            android:id="@+id/action_countriesFragment_to_thirdFragment"
+            app:destination="@id/third_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/third_fragment"
+        android:name="com.test.questionsandroid.ui.ThirdFragment"
+        android:label="Store"
+        tools:layout="@layout/fragment_third" >
+    </fragment>
+</navigation>

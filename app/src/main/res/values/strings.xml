@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuestionsAndroid</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_store">Store</string>
+    <string name="menu_profile">Profile</string>
+    <string name="token_api">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcyNzA4YWZkOWFhYzIyNjcwMzFlMTIiLCJpYXQiOjE2Njg0NDQ0MjQsImV4cCI6MTY2ODUzMDgyNH0.SPjFb804KnERme-2PGif2G_VuQUlHNfnxNjTlflMo5s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+</resources>
